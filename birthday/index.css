@@ -20,12 +20,12 @@
     perspective: 1200px;
     transition: 1s;
   }
-  .card:hover {
+  /* .card:hover {
     transform: rotate(-5deg);
-  }
-  .card:hover .outside {
+  } */
+  /* .card:hover .outside {
     transform: rotateY(-130deg);
-  }
+  } */
   .outside,
   .inside {
     height: 100%;
