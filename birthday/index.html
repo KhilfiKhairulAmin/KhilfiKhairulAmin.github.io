@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" />
+    <title>Happy Birthday Mama!</title>
+    <style>
+      img {
+        height: 330px;
+      }
+      #img_placeholder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    </style>
+    <script src="./index.js" defer></script>
+    <!-- Google Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center;">
+      <audio id="music" autoplay unmuted id="music">
+        <source src="birthday_song.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div id="hbc" class="card">
+      <div id="card" class="outside">
+        <div class="front">
+          <p>Happy Birthday</p>
+          <p>To </p>
+          <p>Mama!</p>
+          <div class="cake">
+            <div class="top-layer"></div>
+            <div class="middle-layer"></div>
+            <div class="bottom-layer"></div>
+            <div class="candle"></div>
+          </div>
+        </div>
+        <div id="img_placeholder" class="back">
+           <img id="img" src="Mama.jpg" alt="oke">
+           <p></p>
+        </div>
+      </div>
+      <div class="inside">
+        <p>
+          Happy 45th Birthday Mama! Sorry Khilfi tak dapat balik minggu ni sebab ada SAT. Semoga dipanjangkan umur dan kekal sihat!
+        </p>
+        <a href="./bunga.html">
+          <button style="font-size: 20px; background-color:pink; border-radius:20px; padding-left: 10px; padding-right: 10px; border-color: rgb(163, 66, 123);">Click Me 🎁</button>
+        </a>
+      </div>
+    </div>
+    <script>
+    </script>
+  </body>
+</html>
